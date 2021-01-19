@@ -1,0 +1,239 @@
+.promotion {
+    margin-bottom: 20;
+
+    .CarouselItem {
+        background-position: 50% 70%;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        .mask {
+            background: rgba(166, 166, 166, 0.4);
+            height: 100%;
+            padding: 20 20 60 20;
+
+
+            .discount {
+                background: rgba(255, 255, 255, 0.74);
+                text-align: center;
+                padding: 10;
+                border-radius: 5;
+
+                .info {
+                    padding: 0;
+                    margin: 0;
+                    font-size: 75;
+                    font-family: Roboto-Bold;
+                }
+
+
+
+            }
+
+            .discount-desc {
+                background: #FF6C47;
+                text-transform: uppercase;
+                padding: 2 5;
+                font-size: 16;
+                color: #eee;
+            }
+
+            /* 
+            .price {
+                color: #eee;
+                font-size: 14;
+                background: #FF6C47;
+                padding: 2 5;
+
+                // margin-top: 5;
+                .text {
+                    color: #000;
+                }
+
+                .old-price {
+                    text-decoration: line-through;
+                    color: black;
+                    font-size: 14;
+                }
+
+                .new-price {
+                    font-size: 14;
+                }
+            } */
+        }
+
+    }
+
+
+
+
+}
+
+.rounded-bk {
+    width: 100%;
+    height: 60;
+    background-image: url('~/assets/images/rounded@2x.png');
+    background-position: 50% 0%;
+    background-size: cover;
+}
+
+/* 
+.product-_holder {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 6;
+
+    .mask {
+        background: rgba(216, 216, 216, 0.4);
+        height: 100%;
+        padding: 20;
+
+        .h1 {
+            font-size: 29;
+            letter-spacing: .042;
+            line-height: 1;
+        }
+
+        .discount {
+            .rate {
+                font-size: 90;
+                color: #FF6C47;
+            }
+
+            .percentage {
+                margin-left: 10;
+                color: #FF6C47;
+                font-size: 15;
+            }
+
+        }
+
+        .discount-desc {
+            background: #FF6C47;
+            text-transform: uppercase;
+            padding: 2 5;
+            font-size: 16;
+            color: #eee;
+        }
+
+        .price {
+            color: #eee;
+            font-size: 14;
+            background: #FF6C47;
+            padding: 2 5;
+
+            // margin-top: 5;
+            .text {
+                color: #000;
+            }
+
+            .old-price {
+                text-decoration: line-through;
+                color: black;
+                font-size: 14;
+            }
+
+            .new-price {
+                font-size: 14;
+            }
+        }
+    }
+
+
+
+
+}
+ */
+
+/* 
+CardView {
+    border-radius: 10;
+    padding: 17;
+}
+
+.product-slider {
+    margin: 17;
+}
+
+.starred {
+    padding: 0;
+    font-size: 20;
+    color: gold;
+    width: 40;
+} */
+
+
+
+
+
+.product-list {
+    border-width: 0;
+
+    .list-group {
+        border-width: 0;
+    }
+
+    .item {
+
+
+        .card {
+            border-width: 1;
+            border-color: #eee;
+            border-bottom-width: 5;
+            border-radius: 6;
+            //height: 180;
+            padding: 0;
+            margin: 9 17 8 17;
+
+
+            .product-image {
+                margin: 10;
+                border-color: #eee;
+                border-width: 2;
+                border-radius: 5;
+                width: 100;
+                height: 100;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+
+            }
+
+            .details {
+                margin: 10;
+
+                .price {
+                    font-size: 20;
+                    color: #FF6C47
+                }
+            }
+
+
+
+            .footer {
+                padding: 0;
+                margin: 0;
+                border-top-width: 1;
+                border-top-color: #eee;
+
+                .-btn {
+                    margin: 0;
+                    background: #FF6C47;
+                    color: white;
+
+                }
+            }
+
+        }
+    }
+
+}
+
+
+.payement {
+    width: 80;
+    height: 80;
+    border-radius: 80;
+    background: brown;
+    color: white;
+}

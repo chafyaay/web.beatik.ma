@@ -1,0 +1,29 @@
+.add-to-cart{
+    .-btn{
+        text-align: center;
+        horizontal-align:center;
+        background: tomato;
+        color: white;
+        margin-left: 0;
+        margin-right: 0;
+        height: 60;
+        width: 100%;
+
+        &.increment{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        width: 60;
+        }
+
+        &.add{
+border-radius: 0;
+        }
+
+         &.decrement {
+             border-top-right-radius: 0;
+             border-bottom-right-radius: 0;
+             width: 60;
+             
+         }
+    }
+}
